@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Spotify</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylePlayer.css">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+  </head>
+  <body style="background-image: url(./img/capa.png), linear-gradient(to bottom left, #9b20c5, #e3226b);">
+
+    <header class="d-flex navbar navbar-expand-sm justify-content-between bg-black">
+        <a class="ms-5 ps-5 mt-3 d-flex align-items-lg-center mb-2" href="./index.html"><svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" fill="white" class="bi bi-spotify" viewBox="0 0 16 16">
+            <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.669 11.538a.498.498 0 0 1-.686.165c-1.879-1.147-4.243-1.407-7.028-.77a.499.499 0 0 1-.222-.973c3.048-.696 5.662-.397 7.77.892a.5.5 0 0 1 .166.686zm.979-2.178a.624.624 0 0 1-.858.205c-2.15-1.321-5.428-1.704-7.972-.932a.625.625 0 0 1-.362-1.194c2.905-.881 6.517-.454 8.986 1.063a.624.624 0 0 1 .206.858m.084-2.268C10.154 5.56 5.9 5.419 3.438 6.166a.748.748 0 1 1-.434-1.432c2.825-.857 7.523-.692 10.492 1.07a.747.747 0 1 1-.764 1.288z"/>
+          </svg><h2><strong class="spot">Spotify</strong></h2><svg class="mb-2" xmlns="http://www.w3.org/2000/svg" width="8" height="8" fill="white" class="bi bi-r-circle" viewBox="0 0 16 16">
+            <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.5 4.002h3.11c1.71 0 2.741.973 2.741 2.46 0 1.138-.667 1.94-1.495 2.24L11.5 12H9.98L8.52 8.924H6.836V12H5.5zm1.335 1.09v2.777h1.549c.995 0 1.573-.463 1.573-1.36 0-.913-.596-1.417-1.537-1.417z"/>
+          </svg>
+        </a>
+        <div class="container-fluid justify-content-end me-5">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Premium</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white ms-2" href="#">Ajuda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white ms-2" href="#">Baixar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white ms-2" href="#">|</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white ms-2" href="#">Inscrever-se</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white ms-2" href="#">Entrar</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+
+    <main class="mb-5 pb-4 d-flex justify-content-center d-flex flex-column">
+        <div class="d-flex justify-content-center">
+            <div>
+                <div class="card text-center carousel-inner align-items-center player mb-5 mt-5 me-3">
+                    <img src="./img/album.webp" class="card-img-top capa" alt="Capa da Música">
+                    <h5 class="card-title mb-5">In the end</h5>
+                    <audio controls>
+                        <source src="./music/in the end.mp3" type="audio/mp3">
+                        Seu navegador não suporta o elemento de áudio.
+                    </audio>
+                </div>
+            </div>
+            <div>
+                <div class="card text-center carousel-inner align-items-center player mb-5 mt-5 me-3">
+                    <img src="./img/black in black.webp" class="card-img-top capa" alt="Capa da Música">
+                    <h5 class="card-title mb-5">Black in black</h5>
+                    <audio controls>
+                        <source src="./music/black in black.mp3" type="audio/mp3">
+                        Seu navegador não suporta o elemento de áudio.
+                    </audio>
+                </div>
+            </div>
+            <div>
+                <div class="card text-center carousel-inner align-items-center player mb-5 mt-5">
+                    <img src="./img/tiger.jpg" class="card-img-top capa" alt="Capa da Música">
+                    <h5 class="card-title mb-5">Eye of tiger</h5>
+                    <audio controls>
+                        <source src="./music/eye of tiger.mp3" type="audio/mp3">
+                        Seu navegador não suporta o elemento de áudio.
+                    </audio>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <div>
+                <div class="card text-center carousel-inner align-items-center player mb-5 mt-5 me-3">
+                    <img src="./img/tim.jpeg" class="card-img-top capa" alt="Capa da Música">
+                    <h5 class="card-title mb-5">Descobridor dos sete mares</h5>
+                    <audio controls>
+                        <source src="./music/descobridor.mp3" type="audio/mp3">
+                        Seu navegador não suporta o elemento de áudio.
+                    </audio>
+                </div>
+            </div>
+            <div>
+                <div class="card text-center carousel-inner align-items-center player mb-5 mt-5 me-3">
+                    <img src="./img/cdz.jpg" class="card-img-top capa" alt="Capa da Música">
+                    <h5 class="card-title mb-5">Pelo mundo</h5>
+                    <audio controls>
+                        <source src="./music/pelo mundo.mp3" type="audio/mp3">
+                        Seu navegador não suporta o elemento de áudio.
+                    </audio>
+                </div>
+            </div>
+            <div>
+                <div class="card text-center carousel-inner align-items-center player mb-5 mt-5">
+                    <img src="./img/yuyu.jpg" class="card-img-top capa" alt="Capa da Música">
+                    <h5 class="card-title mb-5">Sorriso contagiante</h5>
+                    <audio controls>
+                        <source src="./music/sorriso contagiante.mp3" type="audio/mp3">
+                        Seu navegador não suporta o elemento de áudio.
+                    </audio>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="navbar navbar-expand-sm bg-black">
+        <a class="ms-5 ps-5 d-flex align-items-lg-center" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" fill="white" class="bi bi-spotify" viewBox="0 0 16 16">
+            <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.669 11.538a.498.498 0 0 1-.686.165c-1.879-1.147-4.243-1.407-7.028-.77a.499.499 0 0 1-.222-.973c3.048-.696 5.662-.397 7.77.892a.5.5 0 0 1 .166.686zm.979-2.178a.624.624 0 0 1-.858.205c-2.15-1.321-5.428-1.704-7.972-.932a.625.625 0 0 1-.362-1.194c2.905-.881 6.517-.454 8.986 1.063a.624.624 0 0 1 .206.858m.084-2.268C10.154 5.56 5.9 5.419 3.438 6.166a.748.748 0 1 1-.434-1.432c2.825-.857 7.523-.692 10.492 1.07a.747.747 0 1 1-.764 1.288z"/>
+          </svg><h2><strong class="spot">Spotify</strong></h2><svg class="mb-2" xmlns="http://www.w3.org/2000/svg" width="8" height="8" fill="white" class="bi bi-r-circle" viewBox="0 0 16 16">
+            <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.5 4.002h3.11c1.71 0 2.741.973 2.741 2.46 0 1.138-.667 1.94-1.495 2.24L11.5 12H9.98L8.52 8.924H6.836V12H5.5zm1.335 1.09v2.777h1.549c.995 0 1.573-.463 1.573-1.36 0-.913-.596-1.417-1.537-1.417z"/>
+          </svg>
+        </a>
+
+        <div class="container-fluid d-flex justify-content-between ms-5 mt-5 final">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link text-secondary" href="#"><h6>COMPANY</h6></a> 
+                    <a class="nav-link text-white" href="#">Sobre</a>
+                    <a class="nav-link text-white" href="#">Empregos</a>
+                    <a class="nav-link text-white" href="#">Imprensa</a>
+                    <a class="nav-link text-white" href="#">Novidades</a>
+                </li>
+
+                <li class="nav-item ms-4">
+                    <a class="nav-link text-secondary" href="#"><h6>COMUNIDADES</h6></a> 
+                    <a class="nav-link text-white" href="#">Artistas</a>
+                    <a class="nav-link text-white" href="#">Desenvolvedores</a>
+                    <a class="nav-link text-white" href="#">Marcas</a>
+                </li>
+
+                <li class="nav-item ms-4">
+                    <a class="nav-link text-secondary" href="#"><h6>LINKS UTEIS</h6></a> 
+                    <a class="nav-link text-white" href="#">Ajuda</a>
+                    <a class="nav-link text-white" href="#">Presentes</a>
+                    <a class="nav-link text-white" href="#">Player web</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="container-fluid justify-content-end me-5 pe-5">
+            <ul class="navbar-nav">
+                <li class="nav-item border border-black">
+                    <a class="nav-link text-dark border-black" href="#"><img src="./img/instagram.png" alt=""></a>
+                </li>
+                <li class="nav-item ms-2 border border-black">
+                    <a class="nav-link text-dark border-black" href="#"><img src="./img/twitter.png" alt=""></a>
+                </li>
+                <li class="nav-item ms-2 border border-black">
+                    <a class="nav-link text-dark border-black" href="#"><img src="./img/facebook.png" alt=""></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html> 

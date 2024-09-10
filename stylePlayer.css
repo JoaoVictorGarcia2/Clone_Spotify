@@ -1,0 +1,47 @@
+
+.text {
+    color: rgba(0, 255, 255, 0.603);
+}
+footer {
+    margin-top: -73px;
+}
+
+.spot {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.final ul li a {
+    margin-top: -10px;
+}
+
+.capa {
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    border-radius: 100%;
+    padding: 10px;
+    border: purple 5px solid;
+    background-color: black;
+}
+
+.player {
+    width: 400px;
+    height: 530px;
+}
+
+.bg-purple {
+    background-color: #8B008B; /* DarkMagenta */
+  }
+  
+  .card {
+    background-color: #2a003f; /* DarkOrchid */
+    color: white;
+    border: 5px solid black;
+    padding: 20px;
+  }

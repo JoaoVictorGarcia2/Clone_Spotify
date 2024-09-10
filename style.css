@@ -1,0 +1,98 @@
+.info {
+    display: flex;
+}
+
+.imgs {
+    margin-left: 80px;
+}
+
+.info img {
+    width: 260px;
+}
+
+.info h3 {
+    color: #7f24e7;
+}
+
+.info h1 {
+    color: #7f24e7;
+}
+
+.rotacao {
+    margin-top: 270px;
+    transform: rotate(30deg);
+}
+
+.rotacao img {
+    width: 310px;
+    height: 610px;
+}
+
+.text {
+    color: rgba(0, 255, 255, 0.603);
+}
+footer {
+    margin-top: -73px;
+}
+
+.spot:hover {
+    text-decoration: none;
+}
+
+.final ul li a {
+    margin-top: -10px;
+    color: rgb(255, 255, 255);
+}
+
+.final ul li a:hover {
+    color: rgba(0, 255, 255, 0.87);
+}
+
+.comeco ul li a {
+    color: rgb(255, 255, 255);
+}
+
+.comeco ul li a:hover {
+    color: rgba(0, 255, 255, 0.87);
+}
+
+.carol1 {
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.carol1 h1 {
+    color: white;
+    font-size: 70px;
+}
+
+.btn a {
+    font-size: 20px;
+}
+
+.btn a:hover {
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.btn2 {
+    background-color: #7f24e7;
+}
+
+.btn2:hover {
+    background-color: #5d00c7;
+    color: white;
+}
+
+.btns {
+    color: white;
+}
+
+.btns:hover {
+    color: black;
+}
